@@ -23,7 +23,7 @@ a:hover{
 }
 
 .education-container{
-    background-color: azure;
+    background-color: gainsboro;
 }
 
 .bg-redtype{
@@ -39,4 +39,8 @@ a:hover{
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+
+.project-container{
+    background-color: lightblue;
 }
