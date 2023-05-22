@@ -11,6 +11,9 @@ body{
 }
 
 .navbar-container{
+    top: 0;
+    z-index: 2;
+    position: sticky;
     background-color: gainsboro;
 }
 
@@ -27,7 +30,15 @@ a:hover{
 }
 
 .bg-redtype{
-    background-color: bisque;
+    background-color: coral;
+}
+
+.bg-redtype:hover{
+    color: black !important;
+}
+
+.btn-danger:hover{
+    color: black !important;
 }
 
 .redtype-color{
@@ -43,4 +54,12 @@ a:hover{
 
 .project-container{
     background-color: lightblue;
+}
+
+.form-container{
+    background-color: gray;
+}
+
+.inner-form{
+    background-color: lightgrey;
 }
