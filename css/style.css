@@ -14,6 +14,29 @@ body{
     background-color: gainsboro;
 }
 
+a:hover{
+    background-color: lightseagreen;
+}
+
 .about-container{
     background-color: lightskyblue;
+}
+
+.education-container{
+    background-color: azure;
+}
+
+.bg-redtype{
+    background-color: bisque;
+}
+
+.redtype-color{
+    color: orangered;
+}
+
+.circle{
+    background-color: orangered;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
