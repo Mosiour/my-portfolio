@@ -34,22 +34,22 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active fw-bolder" aria-current="page" href="#About">ABOUT</a>
+              <a class="nav-link active fw-bolder" aria-current="page" href="#About"><i class="fa fa-user-circle"></i> ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active fw-bolder" aria-current="page" href="#Education">EDUCATION</a>
+              <a class="nav-link active fw-bolder" aria-current="page" href="#Education"><i class="fa fa-mortar-board"></i> EDUCATION</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active fw-bolder" aria-current="page" href="#Project">PROJECT</a>
+              <a class="nav-link active fw-bolder" aria-current="page" href="#Project"><i class="fa fa-suitcase"></i> PROJECT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active fw-bolder" aria-current="page" href="#Portfolio">PORTFOLIO</a>
+              <a class="nav-link active fw-bolder" aria-current="page" href="#Portfolio"><i class="fa fa-object-group"></i> PORTFOLIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active fw-bolder" aria-current="page" href="#Gallery">GALLERY</a>
+              <a class="nav-link active fw-bolder" aria-current="page" href="#Gallery"><i class="fa fa-image"></i> GALLERY</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active fw-bolder text-hover" aria-current="page" href="#Contact">CONTACT</a>
+              <a class="nav-link active fw-bolder text-hover" aria-current="page" href="#Contact"><i class="fa fa-paper-plane"></i> CONTACT</a>
             </li>
           </ul>
         </div>
@@ -162,9 +162,9 @@
     </div>
 
     <!-- portfolio section -->
-    <div class="container" id="Portfolio">
+    <div class="portfolio-container" id="Portfolio">
       <div class="row py-5">
-        <div class="col">
+        <div class="col pb-3">
           <h2 class="redtype-color text-center fw-bolder">PORTFOLIO</h2>
         </div>
       </div>
@@ -195,7 +195,7 @@
         </div>
       </div>
 
-      <div class="row py-2">
+      <div class="row py-2 pb-5">
         <div class="col-md-4">
           <div class="card">
             <div class="card-body">
@@ -222,8 +222,36 @@
       </div>
     </div>
 
+    <!-- gallery section -->
+    <div class="row py-5" id="Gallery">
+      <div class="col">
+        <h2 class="redtype-color text-center fw-bolder">GALLERY</h2>
+      </div>
+    </div>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="/image/img_1.jpg" height="400px" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="/image/img_2.jpg" height="400px" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="/image/img_3.jpg" height="400px" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
     <!-- contact section -->
-    <div class="form-container">
+    <div class="form-container mt-4">
       <div class="container">
         <div class="row py-5">
           <div class="col text-white text-center m-auto">
@@ -299,8 +327,9 @@
           <div class="container">
             <div class="row py-5">
               <div class="col text-center text-white">
-                <em>"Work hard in silence, let your success be your noise"</em>
-                <p>Frank Ocean</p>
+                <em class="fw-bolder">"Work hard in silence, let your success be your noise"</em>
+                <br><br>
+                <p class="fw-bolder">Frank Ocean</p>
               </div>
             </div>
 
@@ -319,8 +348,8 @@
             </div>
 
             <div class="row">
-              <div class="col text-center text-white">
-                <p>Copyright &copy; 2023 All Right Reserve To MD MOSIOUR RAHMAN</p>
+              <div class="col text-center">
+                <p class="fw-bolder">Copyright &copy; 2023 All Right Reserve To MD MOSIOUR RAHMAN</p>
               </div>
             </div>
           </div>
